@@ -4,7 +4,7 @@ import Programs from './Components/Programs/Programs';
 import Reasons from './Components/Reasons/Reasons';
 import Plans from './Components/Plans/Plans';
 import Testimonials from './assets/Testimonials/Testimonials';
-
+import Footer from './Components/Footer/Footer';
 function App() {
   return (
     <div className="App">
@@ -12,7 +12,8 @@ function App() {
        <Programs/>
        <Reasons/> 
        <Plans/> 
-       <Testimonials/> 
+       <Testimonials/>
+       <Footer/> 
     </div>
   );
 }

@@ -85,6 +85,12 @@
     text-transform: uppercase;
 }
 
+.hero-blur{
+    width: 22rem;
+    height: 30rem;
+    left: 0;
+}
+
 .hero-button{
     display: flex;
     gap: 1rem;
