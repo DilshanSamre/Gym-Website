@@ -6,6 +6,7 @@ import Heart from "../../assets/heart.png";
 import Calories from "../../assets/calories.png";
 import { Header } from '../Header/Header';
 import {motion} from 'framer-motion'
+import NumberCounter from 'number-counter'
 export const Hero = () => {
 
   const transition ={type:'spring', duration: 3}
@@ -39,15 +40,23 @@ export const Hero = () => {
                <br></br>
               <div className="figures">
                 <div>
-                  <span>+140</span>
+                  <span>
+                    <NumberCounter end={140} start={100} delay='4' preFix="+"/>
+
+                  </span>
                   <span>Expert Coaches</span>
                 </div> 
                 <div>
-                <span>+934</span>
+                <span>
+                <NumberCounter end={934} start={800} delay='4' preFix="+"/>
+
+                </span>
                   <span>members joined</span>
                 </div> 
                 <div>
-                  <span>+50</span>
+                  <span>
+                  <NumberCounter end={50} start={25} delay='4' preFix="+"/>
+                  </span>
                   <span>Fitness Programs</span>
                 </div>
                 </div> 
